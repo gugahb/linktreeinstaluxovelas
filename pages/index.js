@@ -29,7 +29,8 @@ const Index = props => {
   )
 }
 
-export async function getServerSideProps () {
+export async function getServerSideProps ({ res }) {
+  res.setHeader('Cache-control', 's-maxage=60', 'stale-while-revalidate')
   const client = Prismic.client('https://linktreeinsta.cdn.prismic.io/api/v2')
   const page = await client.getSingle('home')
   console.log(page)
