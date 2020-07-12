@@ -12,3 +12,4 @@ Todo conteúdo - imagem, títulos e links - pode ser editado de maneira simples 
 
 * [NextJS](https://nextjs.org/) - The React Framework.
 * [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
+* [Prismic](https://prismic.io/) - Make your website editable for the whole team
