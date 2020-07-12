@@ -7,7 +7,7 @@ const Index = props => {
   const items = props.data.body[0].items
   const titulo = props.data.body[0].primary.titulo[0].text
   return (    
-    <div className='max-w-xl mx-auto'>
+    <div className='max-w-md mx-auto'>
       <Head>
         <title>Agência Vide</title>
       </Head>
