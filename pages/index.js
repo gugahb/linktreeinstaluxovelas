@@ -1,12 +1,21 @@
 import React from 'react'
 import Link from '../components/Link'
 import Prismic from 'prismic-javascript'
+import Head from 'next/head'
 
 const Index = props => {
   const items = props.data.body[0].items
-  return (
-    <div className='max-w-xl'>
-      <h1><img src={props.data.headerimg.url} alt='Linktree Agência Vide'/></h1>      
+  const titulo = props.data.body[0].primary.titulo[0].text
+  return (    
+    <div className='max-w-xl mx-auto'>
+      <Head>
+        <title>Agência Vide</title>
+      </Head>
+
+      {/* <pre>{JSON.stringify(props.data.body[0].primary.titulo[0].text, null, 2)}</pre>*/}
+      
+      <img className='mx-auto mt-10 mb-4 rounded-full h-21 w-21 flex items-center justify-center' src={props.data.headerimg.url} width='140px' heigth='140px' alt='Linktree Agência Vide'/>
+      <h1 className='mx-auto text-center mb-8 font-bold text-indigo-700 text-lg'>{titulo}</h1>
       <ul>
         { items.map(item => {
           return (
