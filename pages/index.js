@@ -31,7 +31,6 @@ const Index = props => {
               <Link href="https://www.facebook.com/luxovelas">Facebook</Link>
             </li> 
       </ul>
-      <h6>Feito por <a href="https://gustavo.tec.br">Gustavo Henrique Borges</a></h6>
     </div>
   )
 }
