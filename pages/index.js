@@ -22,7 +22,7 @@ const Index = props => {
               <Link href="https://www.luxovelas.com.br/">Loja Online</Link>
             </li>
 
-            <li>
+            {/* <li>
               <Link href="https://www.instagram.com/luxo_velas">Instagram</Link>
             </li>
             <li>
@@ -33,7 +33,7 @@ const Index = props => {
             </li>
             <li>
               <Link href="">Facebook</Link>
-            </li>
+            </li> */}
 
       </ul>
     </div>
