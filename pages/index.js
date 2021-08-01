@@ -19,7 +19,7 @@ const Index = props => {
       <ul>
  
             <li>
-              <Link href="https://www.luxovelas.com.br/">Site</Link>
+              <Link href="https://www.luxovelas.com.br/">Loja Online</Link>
             </li>
 
             <li>
