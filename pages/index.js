@@ -19,7 +19,7 @@ const Index = props => {
             </li>
 
             <li>
-              <Link href="https://www.instagram.com/luxo_velas">Instagram</Link>
+              <Link href="https://www.instagram.com/luxo.velas">Instagram</Link>
             </li>
             <li>
               <Link href="mailto:contato@luxovelas.com.br">E-mail</Link>
